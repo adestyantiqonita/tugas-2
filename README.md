@@ -1,3 +1,31 @@
+# Tugas 3
+
+- Tautan menuju aplikasi Railway yang sudah kamu deploy
+tugas2.up.railway.app
+
+- Apakah kita dapat menginput data selain melalui form? 
+Ada, salah satunya menggunakan shell Django. 
+
+- Namun mengapa form dapat dikatakan lebih baik daripada menggunakan cara tersebut?
+Form Django memiliki keamanan sehingga tidak mudah diretas, Form Django paling mudah untuk dikelola serta diperbaharui, Form Django menyediakan validasi data built-in
+
+- Jelaskan perbedaan antara JSON, XML, dan HTML!
+| JSON | XML | HTML |
+| --- | --- | --- |
+| JavaScript Object Notation | Extensible Markup Language | Hypertext Markup Language |
+| Sangat mudah dibaca | Lebih susah dibaca | Mudah dibaca |
+| Map Structure | Tree Structure | Tree Structure |
+| .json | .xml | .html | 
+| Cepat | Lambat | Cepat |
+| Support arrays | Tidak support arrays |
+| mengirim data antar aplikasi web atau client-server | menyimpan, mengatur, dan memperdagangkan data secara independen dari perangkat lunak dan perangkat keras | membuat struktur, isi, dan tampilan halaman web, dan juga untuk menambahkan interaksi pengguna | 
+
+- Jelaskan mengapa kita memerlukan data delivery dalam pengimplementasian sebuah platform.
+Karena data delivery karena membantu memperoleh data yang dibutuhkan dari berbagai sumber, mengoptimalkan kinerja sistem, dan menyediakan data yang akurat dan terbaru kepada pengguna
+
+- Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+dengan bantuan tutorial minggu lalu, saya bisa mengerjakannya. membuat form sesuai yang diajarkan di tutorial kemudian menambahkan fungsi tugas pada views. Setelah itu menambahkan json dan xml yang sudah diajarkan. 
+
 # Templat Proyek Django untuk Railway
 
 Repositori ini berisi sebuah templat untuk membuat proyek Django yang siap di-*deploy* ke [Railway](https://railway.app/).
