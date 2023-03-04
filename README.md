@@ -1,7 +1,7 @@
-# Tugas 3
-
 - Tautan menuju aplikasi Railway yang sudah kamu deploy
 tugas2.up.railway.app
+
+# Tugas 3
 
 - Apakah kita dapat menginput data selain melalui form? 
 Ada, salah satunya menggunakan shell Django. 
