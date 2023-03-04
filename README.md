@@ -10,6 +10,7 @@ Ada, salah satunya menggunakan shell Django.
 Form Django memiliki keamanan sehingga tidak mudah diretas, Form Django paling mudah untuk dikelola serta diperbaharui, Form Django menyediakan validasi data built-in
 
 - Jelaskan perbedaan antara JSON, XML, dan HTML!
+
 | JSON | XML | HTML |
 | --- | --- | --- |
 | JavaScript Object Notation | Extensible Markup Language | Hypertext Markup Language |
@@ -17,7 +18,7 @@ Form Django memiliki keamanan sehingga tidak mudah diretas, Form Django paling m
 | Map Structure | Tree Structure | Tree Structure |
 | .json | .xml | .html | 
 | Cepat | Lambat | Cepat |
-| Support arrays | Tidak support arrays |
+| Support arrays | Tidak support arrays | Tidak support arrays |
 | mengirim data antar aplikasi web atau client-server | menyimpan, mengatur, dan memperdagangkan data secara independen dari perangkat lunak dan perangkat keras | membuat struktur, isi, dan tampilan halaman web, dan juga untuk menambahkan interaksi pengguna | 
 
 - Jelaskan mengapa kita memerlukan data delivery dalam pengimplementasian sebuah platform.
