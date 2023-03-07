@@ -1,6 +1,31 @@
 - Tautan menuju aplikasi Railway yang sudah kamu deploy
 tugas2.up.railway.app
 
+# Tugas 4
+
+- Apa kegunaan {% csrf_token %} pada elemen <form>? 
+Untuk meng-generate token keamanan yang unik agar dapat terlindungi dari kerusakan atau serangan CSRF
+
+- Apa yang terjadi apabila tidak ada potongan kode tersebut pada elemen <form>?
+Server akan menolak form submission dan mengembalikan error: Forbidden 403
+
+- Apakah kita dapat membuat elemen <form> secara manual (tanpa menggunakan generator seperti {{ form.as_table }})?
+Bisa, tapi merepotkan
+
+- Jelaskan secara gambaran besar bagaimana cara membuat <form> secara manual.
+Buat satu-satu label dan inputnya seperti berikut, contohnya
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+
+- Jelaskan proses alur data dari submisi yang dilakukan oleh pengguna melalui HTML form, penyimpanan data pada database, hingga munculnya data yang telah disimpan pada template HTML.
+User mengisi form dan menekan tombol "Submit" ->
+Browser mengirimkan permintaan POST ke server Django dengan data form yang diisi, termasuk token CSRF ->
+Server Django menerima permintaan POST dan memvalidasi token CSRF. Jika token tidak valid, server akan menolak permintaan dan memberikan pesan eror: Forbidden 403 -> Server Django memvalidasi data form -> Jika data form valid, server Django menyimpan data tersebut ke dalam database -> Server Django memunculkan template HTML yang memuat data yang telah disimpan pada database, dalam bentuk objek Python -> Browser menerima respons HTML dari server Django dan menampilkan data yang telah disimpan pada halaman web
+
+- Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas
+Dengan bantuan tutorial sebelumnya serta guglilng beberapa hal
+
+
 # Tugas 3
 
 - Apakah kita dapat menginput data selain melalui form? 
